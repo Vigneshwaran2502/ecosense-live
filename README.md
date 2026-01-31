@@ -14,6 +14,42 @@ EcoSense is a modern, real-time Smart Home Energy Monitor dashboard designed to 
 -   **MQTT Integration**: Connects to MQTT brokers for real-time data ingestion from IoT devices (ESP8266).
 -   **Responsive Design**: Fully responsive layout built with Tailwind CSS.
 
+## 📸 Dashboard Preview
+
+### Hero Section
+![EcoSense Hero Section](screenshots/hero-section.png)
+
+### Live Dashboard
+![EcoSense Live Dashboard](screenshots/live-dashboard.png)
+
+### Intelligent Features
+![EcoSense Features](screenshots/intelligent-features.png)
+
+### System Architecture
+![System Architecture](screenshots/system-architecture.png)
+
+## 🌟 Key Features
+
+### 1. Live Energy Monitoring
+Track your electrical parameters in real-time with high-precision radial gauges.
+- **Voltage (V)**: Monitors line voltage stability (0-250V range).
+- **Current (A)**: real-time current draw monitoring.
+- **Power (W)**: Instantaneous power consumption display.
+
+### 2. Intelligent Device Recognition
+The system uses AI/ML algorithms at the edge to identify the type of appliance currently running.
+- **Device Type**: Displays the detected appliance (e.g., Laptop, Fan, Light).
+- **Status Indicator**: Visual feedback on device operational status.
+
+### 3. Green Score & Analytics
+Promote eco-friendly habits with the Green Score meter.
+- **Green Score**: A dynamic metric indicating energy efficiency.
+- **Power Chart**: Interactive graph showing power consumption trends over time.
+
+### 4. Safety & Alerts
+- **Visual Alerts**: Color-coded indicators for warning and danger thresholds.
+- **System Status**: Real-time connection status with the MQTT broker.
+
 ## 🛠️ Tech Stack
 
 -   **Frontend**: React, TypeScript, Vite
